@@ -17,7 +17,7 @@ semilogx(2*pi./omiga0,c,'-',2*pi./omigal,c,':',2*pi./omiga2,c,'--',2*pi./omiga3,
 legend('基阶','一阶','二阶','三阶','location','northwest') %加上图例
 xlabel('周期/s'); %x轴标记
 ylabel('速度/km.s-~1') %加y轴标记
-figure(2)%第二幅图画板，绘制基阶、一阶、二阶的相对振幅随深度的分布
+figure(2)%%第二幅图画板，绘制基阶、一阶、二阶的相对振幅随深度的分布
 c=4.0; %相速度
 c2=c.*c; %速度的平方
 sqel=sqrt(1/vs1/vsl-1/c2);
