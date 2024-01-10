@@ -42,6 +42,6 @@ plot([0,0],ylim,'k') %制零线
 plot(0,11.1847,'go');%标出1阶的一个节点的深度位置
 plot(0,6.4075,'ro');
 plot(0,19.2219,'ro');%标出二阶的两个节点的深度位置
-set(gca,'Ydir','reverse') %??y轴的显示反向，向下为正
+set(gca,'Ydir','reverse') %y轴的显示反向，向下为正
 xlabel('相对振幅')%x轴标记
 ylabel('深度/km1') %y轴标记
